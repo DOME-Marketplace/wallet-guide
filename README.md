@@ -3,7 +3,7 @@
 ## Introduction to the DOME Digital Wallet
 The DOME Digital Wallet is an essential tool for managing your digital identity within the DOME Marketplace. It enables secure interactions by allowing users to store, manage, and utilize digital credentials effectively. This wallet supports various functionalities including signing in, credential management, and QR code scanning for credential verification or issuance. Access the wallet by visiting [DOME Digital Wallet](https://wallet.dome-marketplace-prd.org).
 
-For a detailed walkthrough on setting up your account and the initial steps to access the DOME Marketplace, please refer to the official [Onboarding Guide](link-to-onboarding-guide). This guide will help you understand the prerequisites and steps to get started with DOME.
+For a detailed walkthrough on setting up your account and the initial steps to access the DOME Marketplace, please refer to the official [Onboarding Guide](https://github.com/DOME-Marketplace/onboarding/tree/official-csp-participants-onboarding). This guide will help you understand the prerequisites and steps to get started with DOME.
 
 ## 1. Registering on the DOME Digital Wallet
 - **Access the Digital Wallet**:
@@ -66,18 +66,26 @@ For a detailed walkthrough on setting up your account and the initial steps to a
 
 ### QR Scan Functionality
 - **General Use**:
-    - The QR Scan function is used to scan QR codes, which can trigger processes for obtaining or presenting credentials. This feature simplifies the interaction with various credential-related services.
+    - The QR Scan function is used to scan QR codes provided by a third party, which can trigger processes for **obtaining** or **presenting** credentials. To initiate a scan, press the 'Scan QR' button to deploy the camera.
 
       ![QR Scan Functionality](./assets/wallet-5.png "Using the QR Scan Function")
 
+- **Scanning Process**:
+    - After pressing the 'Scan QR' button, align the QR code within the camera to scan it. This will trigger the specific process linked to the QR code.
+
+
 ### Credential Issuance Process
 - **PIN Verification**:
-    - If the credential issuance process includes PIN verification (used for additional security), you will be prompted to enter a PIN that you have received through a communication channel specified by the issuer.
+    - If the credential issuance process includes PIN verification (used for additional security), you will be prompted to enter a PIN **after scanning the QR code**, that you have received through a communication channel specified by the issuer. 
 
       ![Enter PIN](./assets/wallet-6.png "Entering PIN during Credential Issuance")
 
-- **Manual Intervention for Credential Signing**:
-    - For credentials that require manual signing, such as DOME issued credentials, you will initially receive them in an 'unsigned' state. You'll see an 'unsigned' notification and a 'Sign' button within your wallet. Once you are notified that your signed credential is ready, use the 'Sign' button in the wallet to finalize the credential.
+### Manual Intervention for Credential Signing
+- **Signing Process**:
+    - For credentials that require manual signing, you will initially receive them in an 'unsigned' state. If you attempt to obtain the signed credential before it is ready, a notification will appear stating that the credential is not ready for signing yet.
+
+      ![Credential Signing Error](./assets/not-ready-pop-up.png "Credential Not Ready for Signing")
+    - Once notified that your signed credential is ready, use the 'Sign' button in the wallet to finalize the credential.
 
       ![Credential Signing](./assets/wallet-7-b.png "Signing Credential in Wallet")
 
@@ -93,6 +101,11 @@ For a detailed walkthrough on setting up your account and the initial steps to a
 
       ![Delete Credential](./assets/trash-icon.png "Deleting a Credential")
 
+### Language Settings
+- **Changing Language**:
+    - You can change the language of the wallet interface by going to the settings and selecting your preferred language. Currently, the wallet supports English, Spanish, and Catalan.
+
+      ![Language Settings](./assets/language-selector.png "Changing Language")
 
 ## 5. Troubleshooting Common Issues
 
