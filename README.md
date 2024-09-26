@@ -126,8 +126,8 @@ If the camera does not activate when you attempt to use the **Scan QR** function
 
 #### Ensure Camera Permissions are Enabled
 - Make sure the DOME Wallet app has the necessary permissions to access the camera in your device's settings.
-    - On Android: Go to Settings > Apps > <Your Browser> Permissions and ensure the Camera permission is enabled.
-    - On iOS: Go to Settings > Privacy > Camera, find <Your Browser> and ensure the toggle is enabled.
+    - On Android: Go to Settings > Apps > Your Browser Permissions and ensure the Camera permission is enabled.
+    - On iOS: Go to Settings > Privacy > Camera, find Your Browser and ensure the toggle is enabled.
 
 #### Retry QR Scan
 - Return to the home screen and try to scan the QR code again.
