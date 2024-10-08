@@ -3,6 +3,8 @@
 ## Introduction to the DOME Digital Wallet
 The DOME Digital Wallet is an essential tool for managing your digital identity within the DOME Marketplace. It enables secure interactions by allowing users to store, manage, and utilize digital credentials effectively. This wallet supports various functionalities including signing in, credential management, and QR code scanning for credential verification or issuance. Access the wallet by visiting [DOME Digital Wallet](https://wallet.dome-marketplace-prd.org).
 
+The DOME Digital Wallet is designed for use on mobile devices equipped with a camera, as its core functionalities rely on scanning QR codes displayed on other devices.
+
 For a detailed walkthrough on setting up your account and the initial steps to access the DOME Marketplace, please refer to the official [Onboarding Guide](https://github.com/DOME-Marketplace/onboarding/tree/official-csp-participants-onboarding). This guide will help you understand the prerequisites and steps to get started with DOME.
 
 ## 1. Registering on the DOME Digital Wallet
@@ -25,6 +27,9 @@ For a detailed walkthrough on setting up your account and the initial steps to a
     - Set up a secure passkey that will be used to access your wallet.
       
       ![Passkey Registration](./assets/wallet-4.png "Registering a passkey")
+  - The current device will prompt you to use the device's PIN or biometric security.
+
+    ![Passkey Registration](./assets/wallet-4-b.png "Registering a passkey")
   
 - **Successful Registration**:
     - Once you complete those steps you will get log into the wallet with your account
